@@ -1,0 +1,135 @@
+.plusIcon {
+    background-color: #aa5400;
+    display: flex;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    font-weight: 900;
+    font-family: emoji;
+    cursor: pointer;
+}
+
+.displayTxnDataTable {
+    display: flex;
+    align-items: flex-start;
+    width: 522px;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 12px;
+    overflow: auto;
+
+}
+.ReactModal__Content .ReactModal__Content--after-open {
+    border: 2px solid green;
+}
+
+.deleteAction {
+    display: none;
+    width: 0px;
+    display: table-cell;
+    vertical-align: inherit;
+    /* height: 20px; */
+}
+.txnRow:hover .deleteAction {
+    
+    display: table-cell;
+    vertical-align: inherit;
+    cursor: pointer;
+    /* border:1px solid red; */
+    color: red;
+    /* min-width: 1020px; */
+    /* height: 20px; */
+    border-radius: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txnColumn {
+    width: 100px;
+}
+.inputDivStyleAddTxn {
+    margin-top: 5px;
+}
+
+.inputStyleAddTxn {
+    margin-top: 5px;   
+    padding: 6px 10px 6px 10px;
+    font-weight: bold;
+}
+
+
+input::-webkit-outer-spin-button, input[type=number] {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Dropdown-control {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #333;
+    cursor: default;
+    outline: none;
+    margin-top: 6px;
+    max-width: 200px;
+    min-width: 200px;
+    padding: 4px 52px 4px 10px;
+    transition: all 200ms ease;
+}
+
+.datePickerStyle {
+    padding: 7px;
+    margin-top: 7px;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    background-color: #00055f11;
+    padding: 4px 25px;
+    justify-content: center;
+    place-content: center;
+    width: 40px;
+    margin-top: 50px;
+}
+
+
+input[type="radio"]:checked + label {
+    background-color: #00055fff;
+    padding: 4px 25px;
+    color:#fff;
+    width: 40px;
+}
+
+.ReactModal__Content .ReactModal__Content--after-open {
+        position: absolute;
+        inset: 40px;
+        border: 2px solid rgb(255, 255, 238);
+        background: rgb(255, 255, 255);
+        overflow: auto;
+        border-radius: 4px;
+        outline: none;
+        padding: 20px;
+        overflow: hidden;
+    
+}
+
+.importCancelPanel {
+    position: sticky;
+    bottom: -20px;
+    border-top-width: 1px;
+    border-top-color: gray;
+    border-top-style: double;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    }

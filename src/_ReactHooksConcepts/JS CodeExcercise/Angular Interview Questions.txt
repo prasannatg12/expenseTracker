@@ -1,0 +1,16 @@
+1. What is Angular
+    Angular is a Javascript binding framework that binds HTML UI and Javascript Modal
+    It allows MVVM Patters
+    It is 
+
+2. What is SPA
+3. Angular JS vs Angular current version
+4. Directives and their types
+5. Components, Modules, Services
+6. Annotations / decorators
+7. Data binding types (4 types)
+8. Routing, Lazy loading
+9. Pipes 
+10.RxJs
+11.Angular 17 Features
+12.Basics of Javascript and Typescript
